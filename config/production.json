@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://stephen:stepheN32moranMDB@cluster0-m2xkj.mongodb.net/testmernapp?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "b5402cc12fe2f37e63e1",
+  "githubSecret": "b7b1da89a683ad46cae70f9fc4413d25f2e6a1d6"
+}

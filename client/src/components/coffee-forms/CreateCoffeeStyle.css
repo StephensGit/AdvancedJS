@@ -1,0 +1,165 @@
+label,
+input,
+textarea,
+button,
+.message {
+  display: block;
+}
+
+input {
+  border-width: 0px;
+  border-bottom: 1px solid #d3d3d3;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.inputMargin {
+  margin: 5px 0px;
+}
+
+.email {
+  margin-top: 25px;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  color: inherit;
+  width: 100%;
+}
+
+::placeholder {
+  color: inherit;
+  /* padding-bottom: 5px; */
+}
+
+label {
+  font-size: 12px;
+}
+
+/* .formCard {
+  margin: 150 auto;
+  padding: 50px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 25px;
+} */
+
+.myCard {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.formH1 {
+  font-family: futura, 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #333;
+  margin: 0px 0px 20px;
+  font-size: 30px;
+}
+
+.cardFont {
+  font-family: futura;
+  font-weight: 400;
+  color: #d3d3d3;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* background-color: #f5f5f5; */
+}
+
+button {
+  border-radius: 25px;
+  margin-top: 40px;
+  padding: 10px;
+  width: 100%;
+  /* background-color: rgba(142, 245, 234, 1); */
+  color: #fff;
+  transition: background-color 1000ms ease-in;
+  transition: background-color 1000ms ease-out;
+  transition: color 500ms ease-in;
+  transition: color 500ms ease-out;
+  /* height: 40px; */
+}
+
+button:focus {
+  outline: 0;
+}
+
+.submitBtn {
+  background-color: #74b9ff;
+  border: 1px solid #74b9ff;
+}
+
+.cancelBtn {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+}
+
+.submitBtn:hover {
+  background-color: #68a6e5;
+  transition: background-color 500ms ease-out;
+  color: #fff;
+}
+
+.cancelBtn:hover {
+  background-color: #a9a9a9;
+  /* background-color: #5c94cc; */
+  transition: background-color 500ms ease-out;
+  color: #fff;
+}
+
+.submitBtn:after {
+  /* background-color: red; */
+  color: #8ef5ea;
+  transition: background-color 1000ms ease-out;
+  transition: color 1000ms ease-out;
+}
+
+.cancelBtn:after {
+  /* background-color: red; */
+  color: #dcdcdc;
+  transition: background-color 1000ms ease-out;
+  transition: color 1000ms ease-out;
+}
+
+.eventButton {
+  width: 100px;
+  float: left;
+  /* border: 1px solid #ff5276; */
+  border: 1px solid #74b9ff;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /* width: 100px; */
+  /* background-color: #ff5276; */
+  background-color: #74b9ff;
+  color: #fff;
+  transition: background-color 1000ms ease-in;
+  /* transition: background-color 1000ms ease-out; */
+  transition: color 500ms ease-in;
+  transition: color 500ms ease-out;
+  /* height: 40px; */
+}
+
+.eventButton:hover {
+  background-color: #fff;
+  border: 1px solid #74b9ff;
+  color: #74b9ff;
+  /* transition: background-color 500ms ease-out; */
+  /* text-decoration: none; */
+  /* transition: color 1000ms ease-out; */
+}
+
+.eventButton:after {
+  background-color: #74b9ff;
+  color: #fff;
+  /* transition: background-color 1000ms ease-out; */
+  transition: color 1000ms ease-out;
+}
