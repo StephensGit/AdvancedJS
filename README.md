@@ -12,20 +12,26 @@ The application is being developed with the intention of helping independent cof
 Below is a list of user stories for both types of users. User stories are all the functionality that the application should be able to do from a user’s perspective.
 
 ### User Stories – Coffee Shop Owner
-As a user, I want to be able to be able to register an account on the
+*As a user, I want to be able to be able to register an account on the
 application, so to add information for my coffee shop.
-As a user, I want to be able to be able to login to my account on the
+
+*As a user, I want to be able to be able to login to my account on the
 application, so I can edit my coffee shop information.
-As a user, I want to be able to be able to login to my account on the
+
+*As a user, I want to be able to be able to login to my account on the
 application, so I can delete my coffee shop information.
-As a user, I want to be able to view all available coffee shops on the website,
+
+*As a user, I want to be able to view all available coffee shops on the website,
 so that I can find a coffee shop.
-As a user, I want to be able to view an individual coffee shop on the
+
+*As a user, I want to be able to view an individual coffee shop on the
 application, so that I can find more information about that coffee shop.
-User Stories – Coffee Enthusiast
-As a user, I want to be able to view all available coffee shops on the website,
+
+### User Stories – Coffee Enthusiast
+*As a user, I want to be able to view all available coffee shops on the website,
 so that I can find a coffee shop.
-As a user, I want to be able to view an individual coffee shop on the
+
+*As a user, I want to be able to view an individual coffee shop on the
 application, so that I can find more information about that coffee shop.
 
 ## Design
