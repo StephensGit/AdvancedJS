@@ -131,11 +131,15 @@ be the highest parent allowing it to pass down all its props to all of its child
 (entire application). Figure 8 below shows a screen shot from the app.js file of
 Browser Router and all the components within it.
 
+<img width="502" alt="Routes" src="https://user-images.githubusercontent.com/45046901/106365708-317fbd80-632f-11eb-93fc-0ffe41f3ee17.png">
+
 Links are used instead of typical <a> tags. In this application they are used in the
 Navbar component as seen in figure 9 on the next page. This allows the user to
 navigate from the home URL to the register URL or the login URL without a
 page refresh.
-  
+
+<img width="497" alt="Links" src="https://user-images.githubusercontent.com/45046901/106365707-2e84cd00-632f-11eb-8792-37b33eb075d7.png">
+
 Since components are functions, they can be referenced. Route references the path and passes the component as a prop. This can be seen above in figure 8 on page 13. React router does partial matching so ‘exact’ is used to disable the partial matching for a route and ensure the route of an path is an exact match to the current URL. So above in figure 8 “ exact” is added to the home route so it only matches on “/”.
 
 ### Redux
@@ -146,6 +150,10 @@ main parts: 1) Actions, 2) Reducers, 3) Store.
 Store – The store holds the state of the application, and there should be only one
 store per application. A code snippet from the store.js file is below and briefly
 explained.
+
+<img width="492" alt="Screenshot 2021-01-30 at 19 13 15" src="https://user-images.githubusercontent.com/45046901/106365745-73a8ff00-632f-11eb-8610-3d1106f9601e.png">
+
+<img width="492" alt="Screenshot 2021-01-30 at 19 13 21" src="https://user-images.githubusercontent.com/45046901/106365747-74da2c00-632f-11eb-8dbf-af4ea99c990f.png">
 
 **Redux** has a create store function which is used for creating the application’s store.
 It accepts 3 arguments, the first is the root reducer which combines all the
@@ -158,6 +166,10 @@ snippet below, also used is Provider which connects redux and React because
 redux is separate from React. Following this you must ensure everything is
 wrapped in a Provider tag as seen in figure 10 below. This way all the components
 created can access app level state.
+
+<img width="492" alt="Screenshot 2021-01-30 at 19 13 25" src="https://user-images.githubusercontent.com/45046901/106365749-76a3ef80-632f-11eb-88e4-d4bc7bad19c4.png">
+
+<img width="260" alt="Screenshot 2021-01-30 at 19 13 29" src="https://user-images.githubusercontent.com/45046901/106365765-96d3ae80-632f-11eb-93da-91d8a121383d.png">
 
 **Actions** – Actions are vanilla JavaScript objects that describe what happened,
 however they don’t describe how the app state changes. Actions are
@@ -179,6 +191,8 @@ Below in figure 11 is a diagram to try and explain the data flow in Redux.
 * Then Redux passes down the dispatched action to the reducer
 * The redux store then saves the new state that is returned by the reducer
 * The UI will be updated accordingly
+
+<img width="521" alt="Screenshot 2021-01-30 at 19 16 10" src="https://user-images.githubusercontent.com/45046901/106365816-e5814880-632f-11eb-92dd-2217133d0d35.png">
  
 ### Functional Components/Hooks
 For this project functional components were used throughout the application. This
@@ -190,6 +204,8 @@ and the useEffect( ). The useState( ) hook lets you add a React state to a funct
 component. Below shows an example of useState( ) being used in the register
 component and a brief explanation of how it is being used.
 
+<img width="499" alt="Screenshot 2021-01-30 at 19 16 14" src="https://user-images.githubusercontent.com/45046901/106365818-eade9300-632f-11eb-8ead-fbd62225df52.png">
+
 useState( ) returns a pair of values in an array, the current state and a function that
 updates it. In this example formData is the current state and the setFormData is
 the function that will update the state when a user registers. When useState( ) is
@@ -197,6 +213,8 @@ called above, it declares a state variable ‘formData’ and is given the value
 whatever argument is being passed into useState( ). So in this case, it is setting the
 values for the form to empty strings. Setting the initial state for formData in a
 typical class component would like the code below.
+
+<img width="501" alt="Screenshot 2021-01-30 at 19 16 18" src="https://user-images.githubusercontent.com/45046901/106365822-ee721a00-632f-11eb-9aab-a62a3a61144d.png">
 
 ### URL Parameters
 URL Parameters are parameters whose values are set dynamically in a page’s URL.
