@@ -92,13 +92,16 @@ shops in the database, so fetching them, adding new coffee shops, editing existi
 
 users.js – This handles registering new users and logging in.
 
-need an image here
+<img width="501" alt="endPoints" src="https://user-images.githubusercontent.com/45046901/106365631-bfa77400-632e-11eb-84c7-87958a2c226f.png">
 
 Below shows a snippet of code from the coffee.js file. This is a get request to fetch
 all the coffee shops within the database. It takes the Coffee model and uses the
 find method to retrieve all the coffee shops, also being used is the populate
 method which in this case allows you to add the name of the user to the query.
 
+<img width="502" alt="GET" src="https://user-images.githubusercontent.com/45046901/106365634-c209ce00-632e-11eb-8f3c-dddd536334a0.png">
+
+<img width="500" alt="GET2" src="https://user-images.githubusercontent.com/45046901/106365668-e796d780-632e-11eb-9371-e04e4bec7ce1.png">
 ### JWT Authentication (register/login)
 Authentication is used to protect certain routes from users who should not have
 access to them. In this application when a user registers, a JSON web token is
@@ -116,6 +119,8 @@ coffee shop and no other shops.
  token back to authenticate an access protected route. A screenshot of the folder
  structure highlighting this file is below in figure 2.
  
+ <img width="187" alt="middleware" src="https://user-images.githubusercontent.com/45046901/106365670-e8c80480-632e-11eb-8d30-f29360150be9.png">
+
  ### React Router, Links, Route
 React Router allows the application to navigate without the page ever refreshing. It
 uses component structure to call components that display the appropriate
