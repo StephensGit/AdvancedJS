@@ -110,6 +110,7 @@ method which in this case allows you to add the name of the user to the query.
 <img width="502" alt="GET" src="https://user-images.githubusercontent.com/45046901/106365634-c209ce00-632e-11eb-8f3c-dddd536334a0.png">
 
 <img width="500" alt="GET2" src="https://user-images.githubusercontent.com/45046901/106365668-e796d780-632e-11eb-9371-e04e4bec7ce1.png">
+
 ### JWT Authentication (register/login)
 Authentication is used to protect certain routes from users who should not have
 access to them. In this application when a user registers, a JSON web token is
