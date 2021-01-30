@@ -65,6 +65,8 @@ folder structure for the project. The config folder has a ‘db.js’ file that 
 the required code to make the connection to the database. It is then imported into
 the server.js file and called to make the connection.
 
+<img width="282" alt="DBSetup" src="https://user-images.githubusercontent.com/45046901/106366668-63941e00-6335-11eb-8589-1b771d55ccf9.png">
+
  ### Database Schema
 Above in the models folder contains two files that contain the database
 schema. The two entities are coffee and user.
