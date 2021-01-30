@@ -234,6 +234,8 @@ with no issues.
 Prop types acts as a validation for properties that a component should have. React
 allows you to define Prop types and also set them to be required or not.
 
+<img width="487" alt="TypeChecks" src="https://user-images.githubusercontent.com/45046901/106365846-1feae580-6330-11eb-9ffa-91449430ab58.png">
+
 ### Fragments
 A problem when developing this application was when rendering a list of nodes,
 they always must be enclosed in a parent element. This forces an extra div to be
