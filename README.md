@@ -29,10 +29,10 @@ As a user, I want to be able to view an individual coffee shop on the
 application, so that I can find more information about that coffee shop.
 
 ## Design
-React applications allow the developer to split the web page up into individual components and these components are arranged in a hierarchy. Below are the wireframes created to first help with the layout of the application and secondly to help identify the necessary components.
+React applications allow the developer to split the web page up into individual components and these components are arranged in a hierarchy.
 
 ### Wireframes - components
-
+![alt text](https://github.com/StephensGit/AdvancedJS/images/Code1.png "DB Setup")
 ### Wireframes – Design
 
 ## Implementation
