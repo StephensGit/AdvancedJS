@@ -169,20 +169,65 @@ Below in figure 11 is a diagram to try and explain the data flow in Redux.
 * The redux store then saves the new state that is returned by the reducer
 * The UI will be updated accordingly
  
- 
-Quick Start
+### Functional Components/Hooks
+For this project functional components were used throughout the application. This
+allowed for hooks to be used. Hooks basically allow you to use local state and
+other React features without writing a class. They are special components that
+allow you to hook onto React state and lifecycle features inside function
+components. For this application two hooks in particular were used, useState( )
+and the useEffect( ). The useState( ) hook lets you add a React state to a functional
+component. Below shows an example of useState( ) being used in the register
+component and a brief explanation of how it is being used.
 
+useState( ) returns a pair of values in an array, the current state and a function that
+updates it. In this example formData is the current state and the setFormData is
+the function that will update the state when a user registers. When useState( ) is
+called above, it declares a state variable ‘formData’ and is given the value of
+whatever argument is being passed into useState( ). So in this case, it is setting the
+values for the form to empty strings. Setting the initial state for formData in a
+typical class component would like the code below.
+
+### URL Parameters
+URL Parameters are parameters whose values are set dynamically in a page’s URL.
+This allows a route to render the same component while passing that component
+the dynamic portion of the URL so it can change based off it. One example of it
+being used in this application is when a user wants to view an individual coffee
+shop’s info. The Object_Id of the coffee shop is added to the URL so the application 
+can identify which coffee shop to display.
+
+### Bootstrap
+In order to style the application, a combination of custom CSS and Bootstrap has
+been used. To use Bootstrap the CDN is included inside the index.html file. The
+application is fully responsive and has been tested on Mac, and android devices
+with no issues.
+
+### Type Checks
+Prop types acts as a validation for properties that a component should have. React
+allows you to define Prop types and also set them to be required or not.
+
+### Fragments
+A problem when developing this application was when rendering a list of nodes,
+they always must be enclosed in a parent element. This forces an extra div to be
+used, however this sometimes caused problems in the structure of the DOM
+elements especially when using Bootstrap. A solution for this was to use React
+Fragments. They allow you to group a list of children without adding extra nodes
+to the DOM.
+
+### Heroku
+Hosted on Heroku
+
+## Quick Start
 To get this project started
-Clone the repository:
+* Clone the repository:
 
-git clone https://github.com/StephensGit/AdvancedJS.git
+* git clone https://github.com/StephensGit/AdvancedJS.git
 
-Then Enter the folder: cd AdvancedJS
+*Then Enter the folder: cd AdvancedJS
 
-Then run the following commands
+**Then run the following commands**
 
-npm install
-This installs any dependencies needed to run the project
+* npm install
+*This installs any dependencies needed to run the project*
 
-npm run dev
-Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+*npm run dev
+*Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.*
