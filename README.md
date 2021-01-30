@@ -32,7 +32,7 @@ application, so that I can find more information about that coffee shop.
 React applications allow the developer to split the web page up into individual components and these components are arranged in a hierarchy.
 
 ### Wireframes - components
-![alt text](https://github.com/StephensGit/AdvancedJS/images/Code1.png "DB Setup")
+![alt text](https://github.com/StephensGit/AdvancedJS/master/images/Code1.png "DB Setup")
 ### Wireframes – Design
 
 ## Implementation
