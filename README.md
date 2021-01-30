@@ -66,12 +66,15 @@ The below image shows a screenshot of the database in MongoDB
 containing the two collections coffees and users. Every coffee shop should be
 associated with a user. This is done by creating a reference to the user in the
 Coffee model which is shown in a code snippet below.
-
+<img width="486" alt="fig3" src="https://user-images.githubusercontent.com/45046901/106365495-f16c0b00-632d-11eb-9b7b-de26faf57e9a.png">
+<img width="507" alt="DB" src="https://user-images.githubusercontent.com/45046901/106365498-f761ec00-632d-11eb-9f07-891e2309aec4.png">
 Therefore, within the coffees collection below in figure 4, each document
 references a user with a specific ObjectId that is retrieved from the users
 collection. Figure 5 below shows a screenshot of a user document from the users
 collection. As you can see, the ObjectId for user in figure 4 is referencing the user
 ‘Stephen Moran’ seen in figure 5.
+<img width="508" alt="45" src="https://user-images.githubusercontent.com/45046901/106365548-3b54f100-632e-11eb-93b1-3d05f9d1da12.png">
+
 
 ### Server API Endpoints
 In figure 2 above on page 8 in the routes/apis folder contains all the REST api
